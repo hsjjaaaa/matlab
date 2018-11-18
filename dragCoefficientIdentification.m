@@ -9,7 +9,7 @@ sum=0;
 [g_length,~]=size(GO);
 
 %求压力
-for(i=1:p_length)
+for i=1:p_length
   poi=PO(p_length,1);
   poi_num=PO(p_length,2);
   pci=P_Cal(poi_num);
@@ -17,7 +17,7 @@ for(i=1:p_length)
 end
 
 %求流量
-for(i=1:g_length)
+for i=1:g_length
   goi=GO(g_length,1);
   goi_num=PO(g_length,2);
   gci=G_Cal(goi_num);
